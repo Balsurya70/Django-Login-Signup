@@ -1,0 +1,30 @@
+1) creating folder Name :- Registration System
+2) open cmd and enter below command:-
+3) django-admin startproject registration
+4) cd registration
+5) python manage.py startapp app1
+6) open Registration System folder on vscode
+7) go to registartion settings enter 'app1', where INSTALLED_APPS 
+8) create folder in registration name as 'templates'
+9) then go to setting and then TEMPLATES paste 'templates' name next of 'DIRS'
+10) then goto app1 on views.py
+	def HomePage(request):
+		return render(request,'signup.html')
+11) goto urls.py and type from app1 import views
+	path('',views.signup,name='signup'),
+	path('login/',views.LoginPage,name='login'),
+    	path('home/',views.HomePage,name='home'),
+12) python manage.py runserver
+13) python manage.py makemigrations
+14) python manage.py migrate
+15) python manage.py createsuperuser
+	user-name : balajis
+	email:
+	pass : balaji@123
+16) then runserver and goto browser and http://127.0.0.1:8000/admin/ paste this link
+
+17) another admin
+	user-name : balaji
+	email:
+	pass : Suryawanshi@123
+	

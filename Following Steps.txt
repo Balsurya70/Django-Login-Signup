@@ -18,13 +18,13 @@
 13) python manage.py makemigrations
 14) python manage.py migrate
 15) python manage.py createsuperuser
-	user-name : balajis
+	user-name : abc
 	email:
-	pass : balaji@123
+	pass : abc@123
 16) then runserver and goto browser and http://127.0.0.1:8000/admin/ paste this link
 
 17) another admin
-	user-name : balaji
+	user-name : abc
 	email:
-	pass : Suryawanshi@123
+	pass : abc@123
 	
